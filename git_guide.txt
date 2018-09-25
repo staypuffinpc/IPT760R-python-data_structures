@@ -1,0 +1,17 @@
+"Git Going with Git"
+
+1. open terminal
+2. navigate to the folder in which you want to create a repository.
+3. type "git"
+  a. if you get a message that you don't have git installed, follow these instructions: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+4. To start a new repository, type:
+     git init
+5. To see what's now in the repository, type:
+     git status
+6. To get all of these files ready to be "committed" type:
+    git add -A  # this is called "staging.  The files are not yet committed, they're just ready to be committed."
+
+7. To check status, type:
+    git status # note that  your files should now be green.  They're ready to be committed.
+8. To commit the changes, type:
+    git commit -m "[some message that describes this latest group of changes]"
